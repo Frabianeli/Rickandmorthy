@@ -1,0 +1,87 @@
+@media (min-width: 680px) {
+    .ContainerCard{
+        gap: 60px;
+        width: 80%;
+        margin-top: 140px; 
+    }
+    .Head h1 {
+        padding-top: 30px;
+        font-weight: 700;
+        font-size: 33px;
+        animation: move linear 1.5s infinite;
+    }
+}
+@media (min-width: 900px){
+    .Head h1 {
+        padding-top: 36px;
+        font-size: 38px;
+    }
+    .Location ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: start;
+    }
+    .Location li span{
+    display: block;
+    }
+      
+}
+@media (min-width: 1100px){
+    .Head h1 {
+        font-size: 40px;
+      } 
+    .Location{
+    max-width: 650px;
+    padding: 23px 20px 11px 20px;
+
+    }
+    .Location h1{
+    font-size: 22px;
+    padding-bottom: 4px;
+    }
+    .Location ul{
+    line-height: 25px;
+    font-weight: 600;
+    }
+    .Location li span{
+    font-size: 15px;
+    font-weight: 700;
+    }
+}
+@media (min-width: 1400px){
+    .Head h1 {
+        font-size: 41px;
+    }
+    .Location{
+    max-width: 650px;
+    }
+    .Location h1{
+    font-size: 23px;
+    }
+    .Location li span{
+    font-size: 16px;
+    }
+    .Location li{
+        font-size: 18px;
+    }
+    .Card{
+        width: 250px;
+        padding-bottom: 17px;
+    }
+        
+    .Card img{
+    height: 230px;
+    }
+    .Card h2{
+    font-size: 19px
+    }
+    .Card li{
+    font-size: 13px;
+    }
+    .Card span{
+    font-size: 16px;
+    }
+    .Position-R h3{
+    font-size: 24px;
+    }
+}
